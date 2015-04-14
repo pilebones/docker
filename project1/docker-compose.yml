@@ -1,0 +1,13 @@
+project1:
+  image: mfranc/project1-front
+  volumes:
+    - /home/myuser/projects/project1/www/:/path/to/project1/www
+  ports:
+    - 80:80
+    - 9000:9000
+  links:
+    - db
+db:
+  image: mfranc/project1-db
+  ports:
+    - 3306:3306
