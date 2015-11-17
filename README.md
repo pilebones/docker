@@ -1,6 +1,6 @@
 # docker
 
-My docker & compose files for a LAMP application project
+My docker & compose files for a LAMP application project (samples for blank project)
 
 ## Requirements
 
